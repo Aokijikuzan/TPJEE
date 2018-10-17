@@ -1,0 +1,22 @@
+<taglib>
+
+	<tlib-version>210</tlib-version>
+	<jsp-version>2.0</jsp-version>
+	<short-name>Tp4 </short-name>
+
+	<tag>
+	<name>Date</name>
+		<tag-class>tp4.DatteTag</tag-class>
+		<body-content>scriptless</body-content>
+		<attribute>
+			<name>dat</name>
+			<required>true</required>
+			<type>import java.time.LocalDate</type>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+		<attribute>
+			<name>pattern</name>
+			<required>true</required>
+		</attribute>
+	</tag>
+</taglib>
